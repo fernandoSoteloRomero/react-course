@@ -7,7 +7,7 @@ const Home = () => {
   const { data, error, loading } = useFetch(
     "https://fakestoreapi.com/products"
   );
-  console.log(data);
+
   return (
     <Layout>
       {data &&
